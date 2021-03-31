@@ -5,8 +5,6 @@ import java.io.FileWriter;
 import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 import java.util.Date;
 
 import com.google.gson.Gson;
@@ -15,7 +13,7 @@ import com.google.gson.JsonObject;
 public class Main1 {
 
 	private static final String BASE_URL = "http://api.currencylayer.com";
-	private static final String API_KEY = "77f19da688e0fd86539f8fe5342abf3a";
+	private static final String API_KEY = "1a5a387728ba541d19e546f6f2812417";
 	private static final String SOURCE = "USD";
 	private static final String CURRENCIES = "CAD";
 
